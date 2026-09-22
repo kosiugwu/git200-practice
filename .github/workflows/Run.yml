@@ -7,6 +7,6 @@ jobs:
       - run: cat note.txt
   two:
     needs: one
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     steps:
       - run: cat note.txt
